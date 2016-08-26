@@ -10,7 +10,7 @@
 #
 case node['platform_family']
   when 'rhel','fedora'
-    pkgs = [ 'screen','glibc.i686','libstdc++.i686','libgcc_s.so.1','libgcc.i686','java-1.7.0','wget','unzip','expect' ]
+    pkgs = [ 'screen','glibc.i686','libstdc++.i686','libgcc_s.so.1','libgcc.i686','java','wget','unzip','expect' ]
   when 'debian'
     pkgs = [ 'lib32bz2','lib32ncurses5','lib32tinfo5','lib32z1','libc6','libstdc++6','expect' ]
   else
